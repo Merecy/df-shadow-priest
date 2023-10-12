@@ -1,4 +1,5 @@
 profile,actor,DPS,increase,
+<<<<<<< HEAD
 Composite,T31-2_4-set,220050,17.64%,
 Composite,T29-2-set+T31-2-set,209945,12.24%,
 Composite,T30-2-set+T31-2-set,209766,12.14%,
@@ -9,3 +10,15 @@ Composite,T29-2-set+T30-2-set,199665,6.74%,
 Composite,T30-2-set,193452,3.42%,
 Composite,T29-2-set,193003,3.18%,
 Composite,Base,187052,0.00%,
+=======
+Composite,T29-2-set+T31-2-set,204764,11.17%,
+Composite,T30-2-set+T31-2-set,204454,11.00%,
+Composite,T31-2_4-set,202491,9.94%,
+Composite,T31-2-set,199026,8.05%,
+Composite,T29-2_4-set,197099,7.01%,
+Composite,T30-2_4-set,197050,6.98%,
+Composite,T29-2-set+T30-2-set,196006,6.41%,
+Composite,T30-2-set,189992,3.15%,
+Composite,T29-2-set,189893,3.10%,
+Composite,Base,184190,0.00%,
+>>>>>>> 8b71fdf5 (test of Tset)

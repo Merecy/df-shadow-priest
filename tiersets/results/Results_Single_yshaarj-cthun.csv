@@ -1,4 +1,5 @@
 profile,actor,DPS,increase,
+<<<<<<< HEAD
 Single,T31-2_4-set,205692,16.78%,
 Single,T29-2-set+T31-2-set,197779,12.28%,
 Single,T30-2-set+T31-2-set,197551,12.16%,
@@ -9,3 +10,15 @@ Single,T29-2-set+T30-2-set,188033,6.75%,
 Single,T30-2-set,182207,3.44%,
 Single,T29-2-set,181762,3.19%,
 Single,Base,176140,0.00%,
+=======
+Single,T29-2-set+T31-2-set,198722,11.28%,
+Single,T30-2-set+T31-2-set,198375,11.09%,
+Single,T31-2_4-set,195211,9.31%,
+Single,T31-2-set,193109,8.14%,
+Single,T29-2_4-set,191057,6.99%,
+Single,T30-2_4-set,190873,6.88%,
+Single,T29-2-set+T30-2-set,190017,6.41%,
+Single,T30-2-set,184175,3.13%,
+Single,T29-2-set,184136,3.11%,
+Single,Base,178578,0.00%,
+>>>>>>> 8b71fdf5 (test of Tset)

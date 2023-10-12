@@ -1,7 +1,19 @@
 builds:
   # add here as well if you ever change this https://github.com/Bloodmallet/bloodytools/blob/master/bloodytools/simulations/talent_tree_paths/priest_shadow.yaml
-  da-yshaarj-cthun:
-    composite: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkcAAAAAAAAAAAAAgEaRkIlgkEJJJCSjkkEpRQCCpItQSAIB # DA_yshaarj_cthun_81144444614575_Spike_DR
+  st-test: #idk if it's a good thing to have the same build, but just want to check the value for 1 build
+    composite: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkDAAAAAAAAAAAAAIhWEJSJikEJJJCSjkkEpRgICpUiQCUgE # DA_yshaarj_cthun_81144371214255_Spike_DR
+    dungeons: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkDAAAAAAAAAAAAAIhWEJSJikEJJJCSjkkEpRgICpUiQCUgE # DA_yshaarj_cthun_81144371214255_Spike_DR
+    single: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkDAAAAAAAAAAAAAIhWEJSJikEJJJCSjkkEpRgICpUiQCUgE # DA_yshaarj_cthun_81144371214255_Spike_DR
+    2t: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkDAAAAAAAAAAAAAIhWEJSJikEJJJCSjkkEpRgICpUiQCUgE # DA_yshaarj_cthun_81144371214255_Spike_DR
+    4t: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkDAAAAAAAAAAAAAIhWEJSJikEJJJCSjkkEpRgICpUiQCUgE # DA_yshaarj_cthun_81144371214255_Spike_DR
+  yogg-cthun:
+    composite: BIQAAAAAAAAAAAAAAAAAAAAAAgkEJBAAAAAAAAAAAAIkGRi0CSSSkDkIINSSSkGBJIki0CJBQSA # VF_yogg_cthun_119201344746415_Spike_DR_TS
+    dungeons: BIQAAAAAAAAAAAAAAAAAAAAAAESiIBAAAAAAAAAAAAIoJRSSDSSSSkIINSSSkGBJIki0CJBQSA # VF_nzoth_yogg_cthun_129962385069999_Spike_DR_TS
+    single: BIQAAAAAAAAAAAAAAAAAAAAAAgkEJBAAAAAAAAAAAAIkGRi0CSSSkDkIINSSSkGBJIki0CJBQSA # VF_yogg_cthun_119201344746415_Spike_DR_TS
+    2t: BIQAAAAAAAAAAAAAAAAAAAAAAgkQSAAAAAAAAAAAAACp5ARSSLIJJRkIINSSSkGBJIki0CJBQSA # VF_yogg_cthun_119242146935727_Spike_DR_TS
+    4t: BIQAAAAAAAAAAAAAAAAAAAAAAESiIBAAAAAAAAAAAAIoJRSSDSSSSkIINSSSkGBJIki0CJBQSA # VF_nzoth_yogg_cthun_129962385069999_Spike_DR_TS
+  yshaarj-cthun:
+    composite: BIQAAAAAAAAAAAAAAAAAAAAAAIkE5ABAAAAAAAAAAAAIJaRkIlgkERSig0IJJRaEkgQKSLkEASA # DA_yshaarj_cthun_81144613401519_Spike_DR
     dungeons: BIQAAAAAAAAAAAAAAAAAAAAAAIkkkcAAAAAAAAAAAAAgEaRkIlgkEJJJCSjkkEpRQCCpItQSAIB # DA_yshaarj_cthun_81144444614575_Spike_DR
     single: BIQAAAAAAAAAAAAAAAAAAAAAAIQSEAAAAAAAAAAAAgEpERiUiIJRSSigUIJJRaEIiQKSLkEUgA # DA_yshaarj_cthun_81144643565487_Flay
     2t: BIQAAAAAAAAAAAAAAAAAAAAAAIkkEBAAAAAAAAAAAAIhWEJShIJRSSig0IJJRaEkgQKSLkEASA # DA_yshaarj_cthun_81144643835823_Spike_DR
@@ -20,30 +32,21 @@ builds:
     3t: BIQAAAAAAAAAAAAAAAAAAAAAAkQk4AAAAAAAAAAAAAASSaJRSSjIJRSkIINSSSkGBJIki0CJBgA # VF_yshaarj_nzoth_cthun_90808081946543_Flay_DR
 gear:
   head: "crest_of_lunar_communion,id=207281,ilevel=489" # mastery/crit
-  neck: "eye_of_the_rising_flame,id=207163,ilevel=489" # mastery/haste
+  neck: "eye_of_the_rising_flame,id=207163,ilevel=489,gem_id=192985/192948/192948,bonus_id=8782" # mastery/haste
   shoulders: "shoulderguardians_of_lunar_communion,id=207279,ilevel=489" # crit/mastery
-  back: "mantle_of_blazing_sacrifice,id=207161,ilevel=489" # mastery/crit
-  chest: "vesture_of_the_smoldering_serpent,id=207121,ilevel=489" # haste/crit
-  wrists: "fading_flame_wristbands,id=210204,ilevel=489" # mastery/haste
+  back: "undulating_sporecloak,id=205025,ilevel=483,enchant_id=6592" # versa/mastery
+  chest: "cassock_of_lunar_communion,id=207284,ilevel=489,enchant_id=6625" # mastery/versa
+  wrists: "arathi_field_bandages,id=207867,ilevel=489,enchant_id=6574" # crit/mastery
   hands: "touch_of_lunar_communion,id=207282,ilevel=489" # haste/crit
-  waist: "blooming_redeemers_sash,id=207124,ilevel=489" # haste/mastery
-  legs: "leggings_of_lunar_communion,id=207280,ilevel=489" # haste/mastery
-  feet: "slippers_of_heedless_sacrifice,id=134419,ilevel=489" # crit/haste
-  finger1: "band_of_burning_thorns,id=207159,ilevel=489" # haste/mastery
-  finger2: "archdruids_tainted_seal,id=134487,ilevel=489" # mastery/haste
-  trinket1: "pips_emerald_friendship_badge,id=207168,ilevel=489"
-  trinket2: "nymues_unraveling_spindle,id=208615,ilevel=489"
-  main_hand: "eternal_kindlers_greatstaff,id=207795,ilevel=489" # haste/mastery
-  off_hand: ""
-gems:
-  meta: "192985"
-  main: "192925"
-enchants:
-  head: "7052"
-  chest: "6625"
-  ring: "6562"
-  legs: "6541"
-  main_hand: "6643"
+  waist: "vibrant_wildercloth_girdle,id=193516,ilevel=483,enchant_id=6904,bonus_id=9379/8960,crafted_stats=36/49" # mastery=haste
+  legs: "leggings_of_lunar_communion,id=207280,ilevel=489,enchant_id=6541" # haste/mastery
+  feet: "poulaines_of_lunar_communion,id=207283,ilevel=489,enchant_id=6607" # mastery/crit
+  finger1: "band_of_burning_thorns,id=207159,ilevel=489,enchant_id=6556" # haste/mastery
+  finger2: "signet_of_titanic_insight,id=192999,ilevel=489,enchant_id=6554,crafted_stats=36/49" # haste=mastery
+  trinket1: "nymues_unraveling_spindle,id=208615,ilevel=489"
+  trinket2: "pips_emerald_friendship_badge,id=207168,ilevel=489"
+  main_hand: "vakash_the_shadowed_inferno,id=207788,ilevel=489,enchant_id=6643" # mastery/haste
+  off_hand: "tricksters_captivating_chime,id=207796,ilevel=489" # mastery/haste
 sims:
   alchemy:
     description: "Sims alchemy consumables you can use to augment your character. Lists each consumable at ranks 1, 2, and 3."
@@ -187,15 +190,20 @@ sims:
     chart: true
     lookupType: item
     steps:
-      - 437
       - 441
       - 447
       - 450
+      - 454
       - 457
+      - 460
       - 463
+      - 467
       - 470
+      - 473
       - 476
+      - 480
       - 483
+      - 486
       - 489
     files:
       - raid.simc
